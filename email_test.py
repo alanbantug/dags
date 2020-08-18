@@ -4,6 +4,8 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 from tempfile import NamedTemporaryFile
 
+# added import to see if triggered
+import numpy as np
 
 dag = DAG(
     "email_example",
