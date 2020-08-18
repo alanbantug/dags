@@ -6,6 +6,7 @@ from tempfile import NamedTemporaryFile
 
 # added import to see if triggered
 import numpy as np
+import pandas as pd
 
 dag = DAG(
     "email_example",
