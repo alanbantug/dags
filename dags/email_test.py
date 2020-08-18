@@ -22,7 +22,7 @@ def build_email(**context):
 
         email_op = EmailOperator(
             task_id='send_email',
-            to="hello@example.com",
+            to="alan.n.bantug@gmail.com",
             subject="Test Email Please Ignore",
             html_content=None,
             files=[file.name],
